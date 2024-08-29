@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROV system</title>
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+</head>
+<body>
+    <header class="px-2 poppins">
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/rov.jpeg)" class="bg-cover min-h-screen dark:bg-gray-900 dark:border-gray-700 bg-no-repeat">
+          <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+            <div>
+              <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+            </div>
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+              <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                  <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                <li>
+                  <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                </li>
+                <li>
+                  <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                </li>
+                <li class="dropdown dropdown-hover">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                        <li> 
+                          <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                        </li>
+                        <li> 
+                          <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                        </li>
+                    </ul> 
+                </li>
+
+                <li>
+                  <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                </li>
+                <li class="dropdown dropdown-hover list-disc">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                      <li> 
+                        <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                    </li>
+                    <li> 
+                        <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                    </li>
+                    <li>
+                        <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                    </li>
+                     
+                    </ul> 
+                  </li>
+                
+                
+                <li>
+                  <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+            
+  
+                    <!-- image display -->
+            
+                    <div class="mt-44 items-center space-y-6">
+                      <p class="md:text-7xl  max-sm:text-xl text-gray-100 font-semibold text-center">DESIGINIG AND DEVELOPING A <br> RADIO OVER VERCHICLE <br> (ROV) SYSTEM</p>
+                    </div>
+          </nav>
+
+          <!-- image 1 & header text -->
+          <div class="bg-gray-100 md:p-16 max-sm:p-5 sm:p-5">
+                <div class="flex gap-12 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                  <img
+                    src="../Robotic img/Untitled (1).jpg"
+                    class="md:max-w-sm rounded-lg shadow-2xl" />
+                  <div class="space-y-6">
+                    <h1 class="md:text-2xl font-bold">Crafting the Future: Designing and Developing a Radio Over Vehicle (ROV) System</h1>
+                    <p class="">
+                        As an Embedded Systems Engineer, one of my most ambitious and fulfilling projects has been the development of a Radio Over Vehicle (ROV) system. This endeavor required a multidisciplinary approach, combining electrical systems architecture, software engineering, and precise control mechanisms. In this blog post, I'll take you through the journey of creating an advanced ROV system, showcasing the challenges and innovations involved.
+                    </p>
+                     
+                  </div>
+                </div>
+              
+             
+                 
+
+              <!-- image 2 taxt & header -->
+            <div class="flex gap-12 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                <img
+                  src="../Robotic img/Untitled (2).jpg"
+                  class="md:max-w-sm rounded-lg shadow-2xl"/>
+                <div class="space-y-6">
+                  <h1 class="md:text-2xl font-bold">Designing the Electrical Systems Architecture</h1>
+                  <p>
+                    The foundation of any robust ROV system lies in its electrical systems architecture. I was responsible for designing an architecture that integrated multiple nodes and ensured seamless communication and power distribution across the system. The ROV comprises 11 nodes, including:
+                    <ul class="list-disc list-inside space-y-6">
+                        <li>A 6 Degrees of Freedom (DOF) arm</li>
+                        <li>Drive systems</li>
+                        <li>PTZ Cameras</li>
+                        <li>Power systems</li>
+                        <li>Communication System</li>
+                    </ul>
+                    <p>Each component required meticulous planning to ensure efficiency and reliability. The challenge was to create an architecture that supported all these functionalities while maintaining optimal power consumption and performance.</p>
+                  </p>
+                </div>
+              </div>
+
+              <!-- reverse image section image 3 -->
+              <div class="flex gap-12 mt-16 max-sm:flex-col-reverse max-sm:justify-center max-sm:items-center max-md:flex-col-reverse max-md:justify-center max-md:items-center max-lg:flex-col-reverse max-lg:justify-center max-lg:items-center">
+                <div class="space-y-6">
+                  <h1 class="md:text-2xl font-bold">Implementing a Multinode Communication System</h1>
+                  <p class="">
+                    The ROV's functionality heavily depends on the ability to communicate effectively between its nodes. To achieve this, I developed a multinode communication system using STM32 microcontrollers and RS485 protocol. This setup allowed for reliable and high-speed data transmission across all nodes, enabling real-time control and feedback. <br><br>
+
+                    The communication system's core involved writing code to handle complex data exchange processes, ensuring each node could send and receive instructions without delay or error. This was crucial for synchronizing actions between the 6 DOF arm, drive systems, and other components.
+                  </p> 
+                </div>
+                <div>
+                    <img src="../Robotic img/Untitled (3).jpg" class="md:max-w-sm rounded-lg shadow-2xl" />
+                </div>
+              </div>
+
+              <!-- image 4 -->
+              <div class="flex gap-12 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                <div>
+                    <img src="../Robotic img/WhatsApp Image 2024-03-31 at 01.16.16_e6d66000.jpg" class="md:max-w-xl md:min-h-96 rounded-lg shadow-2xl" alt="">
+                </div>
+                <div class="space-y-6">
+                  <h1 class="md:text-2xl font-bold">Software Development for Precise Control</h1>
+                  <p class="">
+                    Developing the software to control the ROV's various systems was a key aspect of the project. I focused on creating algorithms that enabled precise control over the robot's movement and arm manipulation. This involved generating digital signals for motor acceleration and deceleration, allowing for smooth transitions and accurate positioning. <br><br>
+
+                    The control and feedback system was designed to provide real-time data on the ROV's status, ensuring that operators could make informed decisions during operation. This required integrating sensors and feedback loops to monitor the system's performance and adjust parameters as needed.
+                  </p> 
+                </div>
+              </div>
+
+              <!-- text with header -->
+               <div class="space-y-6 mt-24">
+                <h2 class="md:text-2xl font-bold">Challenges and Innovations</h2>
+                <p>Working on the ROV system presented several challenges, from ensuring seamless communication to managing power distribution and implementing robust control algorithms. However, these challenges also led to significant innovations:
+                    <ul class="list-disc list-inside space-y-5">
+                        <li>
+                            <span class="font-bold">Efficient Power Management: </span>By optimizing the electrical architecture, I was able to minimize power loss and ensure that each node operated efficiently, even under high-demand scenarios.
+                        </li>
+
+                        <li>
+                            <span class="font-bold">Real-time Feedback: </span>Implementing a feedback system that provided real-time data was crucial for maintaining control over the ROV, allowing for quick adjustments and improvements.
+                        </li>
+
+                        <li>Drive System with DC servo</li>
+
+                    </ul>
+                </p>
+               </div>
+
+          </div>
+    </header>
+
+  <!-- start footer -->
+    
+  <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+    <div class="">
+        <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+    </div>
+    <hr class="mt-10 mb-6">
+    <div class="footer mt-12">
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Practice Area</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>BUSINESS LAW</li>
+                <li>COPYRIGHTS</li>
+                <li>EMERGING TECHNOLOGIES</li>
+                <li>INDUSTRIAL DESIGNS</li>
+                <li>LITIGATION</li>
+                <li>PATENTS</li>
+                <li>PLANT BREEDERS RIGHTS</li>
+                <li>REGULATORY AFFAIRS</li>
+                <li>TRADEMARKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">The firm</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>AT A GLANCE</li>
+                <li>HISTORY</li>
+                <li>OUT STRUCTURE</li>
+                <li>AWARDS</li>
+                <li>INTERNATIONAL NETWORKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Careers</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>EMPLOYMENT OPOTUNITIES</li>
+                <li>ARTICLING & LAW STUDENTS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Professionals</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>INSIGHTS</li>
+                <li>EVENTS</li>
+                <li>NEWS</li>
+            </ul>
+        </nav>
+        
+          <nav class="cursor-pointer"> 
+            <form>
+                <h6 class="footer-title text-xl">Follow us</h6>
+                <div class="flex space-x-3">
+                    <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                  </a>
+                </div>
+              </form>
+            <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+            <a href="https://play.google.com/store/apps?hl=en">
+                <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                    <div>
+                        <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-center  text-gray-700">GET IT ON</p>
+                        <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        </div>
+        
+        <hr class="mt-10 mb-6">
+
+        <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+            <nav>
+                <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="contact-us.html">CONTACT US</a>
+            </nav>
+        </div>
+
+        <!-- <hr class="mt-5"> -->
+    
+        <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+    
+</footer>
+
+<!-- footer end -->
+
+</body>
+</html>

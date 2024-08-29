@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Crypto</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+
+</head>
+<body>
+    <header class="px-2 poppins">
+
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/ai-crypto-bots.jpg);" class="bg-cover min-h-screen dark:bg-gray-900 dark:border-gray-700 bg-no-repeat">
+            <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+                <div>
+                  <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+                </div>
+                <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                  <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                      <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                    <li>
+                      <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                      <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                    </li>
+                    <li class="dropdown dropdown-hover">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                            <li> 
+                              <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                            </li>
+                            <li> 
+                              <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                            </li>
+                        </ul> 
+                    </li>
+    
+                    <li>
+                      <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                    </li>
+                    <li class="dropdown dropdown-hover list-disc">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                          <li> 
+                            <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                        </li>
+                        <li> 
+                            <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                        </li>
+                        
+                        <li>
+                            <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                        </li>
+                        <li>
+                            <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                        </li>
+                         
+                        </ul> 
+                      </li>
+                    
+                    
+                    <li>
+                      <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+            <!-- image display -->
+    
+            <div class="mt-44 items-center space-y-6">
+              <p class="md:text-7xl  max-sm:text-xl text-gray-100 font-semibold text-center">LIVE CRYPTO  <br> MONITORING DEVICE</p>
+            </div>
+        </nav>
+
+        <!-- page body container -->
+         <div class="mt-16 p-16 max-sm:p-4 max-md:p-4 max-lg:p-6 bg-gray-100">
+            <!-- ul container -->
+             <div>
+                <ul class="list-disc list-inside space-y-4 font-semibold cursor-pointer">
+                    <li>Creating a Live Crypto Monitoring Device with IoT and Blockchain</li>
+                    <li>Component List</li>
+                    <li>Data Integration: Binance API</li>
+                    <li>The Challenge: Real-Time Monitoring</li>
+                    <li>ArduinoJson Library</li>
+                    <li>User-Friendly Display</li>
+                    <li>Pushbutton Navigation</li>
+                    <li>IoT and Blockchain: The Power Duo</li>
+                    <li>Skills Spotlight</li>
+                    <li>Join the Journey of Innovation</li>
+                </ul>
+             </div>
+
+             <!-- image first -->
+              <div class="mt-16">
+                    <div class="flex gap-8 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center cursor-pointer">
+                        <div class="">
+                          <img class="lg:max-w-sm shadow-2xl transition delay-75 hover:scale-95 hover:translate-y-0.5" src="../Robotic img/Untitled (5).jpg" alt="">
+                        </div>
+                      <div class="space-y-6 md:p-16">
+                        <h1 class="md:text-4xl font-bold">Creating a Live Crypto <br> Monitoring Device with IoT and Blockchain</h1>
+                        <p class="">
+                            In the fast-paced world of cryptocurrency trading, the need for real-time data is paramount. Cryptocurrency markets never sleep, and opportunities come and go in the blink of an eye. Manually tracking prices and market movements across different exchanges can be not only time-consuming but also a recipe for missed opportunities. This was the challenge I set out to overcome with a project that combines the power of the Internet of Things (IoT) and Blockchain technology, resulting in a Live Crypto Monitoring Device that's not just efficient but also stylish and user-friendly.Cryptocurrency markets never sleep, and opportunities come and go in the blink of an eye. Manually tracking prices and market movements across different exchanges can be not only time-consuming but also a recipe for missed opportunities.
+                        </p>
+                       </div>
+                    </div>
+              </div>
+
+              <hr class="border-2 border-gray-500 mt-12">
+
+              <!-- collapse container -->
+               <div class="mt-20 space-y-12">
+                <!-- collapse 1 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-2xl font-medium">
+                        <h2>COMPONENT LIST</h2>
+                    </div>
+                     
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <ul class="list-disc list-inside space-y-6">
+                            <li><span class="font-bold">Arduino Board:</span> In our example, we'll use the versatile ESP32, but other boards can work too.</li>
+                            <li><span class="font-bold">TOLED Display:</span> A 128x64 or 128x32 pixel OLED display with I2C or SPI interface.</li>
+                            <li><span class="font-bold">Pushbutton:</span> This will serve as your trigger to shoot at the alien invaders.</li>
+                            <li><span class="font-bold">Potentiometer:</span> You'll use this component to control the movement of your spaceship.</li>
+                            <li><span class="font-bold">Breadboard and Jumper Wires:</span> Essential for connecting and prototyping your hardware</li>
+                        </ul>
+                     </div>
+                </div>
+
+                <!-- collapse 2 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-2xl font-medium">
+                        <h2>Data Integration: Binance API</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <p>The Binance API served as the gateway to real-time cryptocurrency data. By connecting to Binance, I could access essential information such as last price, 24-hour high/low, and trading symbol.</p>
+                     </div>
+                </div>
+                <!-- collapse 3 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-2xl font-medium">
+                        <h2>The Challenge: Real-Time Monitoring</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <p>Cryptocurrency markets operate 24/7, and price fluctuations happen in the blink of an eye. Manually checking various exchanges for live data is not only time-consuming but can also lead to missed opportunities. The challenge was clear: find a way to provide real-time data in a user-friendly and convenient manner.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- collapse 4 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-2xl font-medium">
+                        <h2>ArduinoJson Library</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <ul class="list-disc list-inside space-y-6">
+                            <li>Efficiently parsing the JSON response from the Binance API was made possible by the ArduinoJson library. This allowed for smooth data extraction and a more seamless user experience.
+                            </li>
+                        </ul>
+                     </div>
+                </div>
+               </div>
+
+             <!-- User-Friendly Display  -->
+              <div class="space-y-6 mt-16">
+                <h1 class="text-xl font-bold">User-Friendly Display</h1>
+                <p>The OLED display played a vital role in presenting data in a user-friendly format. It ensured that users could quickly and easily grasp the information they needed.
+                </p>
+              </div>
+
+             <!-- Pushbutton Navigation  -->
+              <div class="space-y-6 mt-12">
+                <h1 class="text-xl font-bold">Pushbutton Navigation</h1>
+                <p>Incorporating a pushbutton added a dynamic element to the device. Users could effortlessly switch between different trading symbols, enhancing the interactivity of the device.</p>
+              </div>
+
+             <!-- IoT and Blockchain: The Power Duo  -->
+              <div class="space-y-6 mt-12">
+                <h1 class="text-xl font-bold">IoT and Blockchain: The Power Duo </h1>
+                <p>IoT and Blockchain technologies played integral roles in this project. IoT enabled real-time data collection and transmission, ensuring that users received the latest information. On the other hand, Blockchain technology guaranteed data security and transparency.
+                    <br><br>
+                    The combination of these technologies created a robust solution that addressed the challenges faced by cryptocurrency traders and enthusiasts. It brought real-time monitoring to the palm of their hands.</p>
+              </div>
+
+             <!-- Join the Journey of Innovation  -->
+              <div class="space-y-6 mt-12">
+                <h1 class="text-xl font-bold">Join the Journey of Innovation</h1>
+                <p>I'm passionate about using technology to solve real-world challenges, and this project is a testament to that passion. It's a reminder that, with creativity and determination, we can create solutions that bridge the gap between a problem and a practical, user-friendly answer. <br><br>
+
+                    [Include a call to action, inviting readers to connect, learn more, or explore your other projects.] <br><br>
+                    
+                    In the dynamic world of cryptocurrency, innovation knows no bounds. By pushing the boundaries of IoT and Blockchain, we can empower traders and enthusiasts to make well-informed decisions and navigate the cryptocurrency market with greater insight and convenience. <br><br>
+                    
+                    [Include social sharing buttons.]</p>
+              </div>
+         </div>
+    </header>
+
+   <!-- start footer -->
+    
+   <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+    <div class="">
+        <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+    </div>
+    <hr class="mt-10 mb-6">
+    <div class="footer mt-12">
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Practice Area</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>BUSINESS LAW</li>
+                <li>COPYRIGHTS</li>
+                <li>EMERGING TECHNOLOGIES</li>
+                <li>INDUSTRIAL DESIGNS</li>
+                <li>LITIGATION</li>
+                <li>PATENTS</li>
+                <li>PLANT BREEDERS RIGHTS</li>
+                <li>REGULATORY AFFAIRS</li>
+                <li>TRADEMARKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">The firm</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>AT A GLANCE</li>
+                <li>HISTORY</li>
+                <li>OUT STRUCTURE</li>
+                <li>AWARDS</li>
+                <li>INTERNATIONAL NETWORKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Careers</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>EMPLOYMENT OPOTUNITIES</li>
+                <li>ARTICLING & LAW STUDENTS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Professionals</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>INSIGHTS</li>
+                <li>EVENTS</li>
+                <li>NEWS</li>
+            </ul>
+        </nav>
+        
+          <nav class="cursor-pointer"> 
+            <form>
+                <h6 class="footer-title text-xl">Follow us</h6>
+                <div class="flex space-x-3">
+                    <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                  </a>
+                </div>
+              </form>
+            <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+            <a href="https://play.google.com/store/apps?hl=en">
+                <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                    <div>
+                        <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-center  text-gray-700">GET IT ON</p>
+                        <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        </div>
+        
+        <hr class="mt-10 mb-6">
+
+        <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+            <nav>
+                <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="contact-us.html">CONTACT US</a>
+            </nav>
+        </div>
+
+        <!-- <hr class="mt-5"> -->
+    
+        <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+    
+</footer>
+
+<!-- footer end -->
+
+</body>
+</html>

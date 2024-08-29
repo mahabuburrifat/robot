@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+</head>
+<body>
+    <header class="poppins px-2">
+
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/about.jpg);" class="bg-cover min-h-screen dark:bg-gray-900 dark:border-gray-700 bg-no-repeat">
+            <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+                <div>
+                  <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+                </div>
+                <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                  <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                      <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                    <li>
+                      <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                      <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                    </li>
+                    <li class="dropdown dropdown-hover">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                            <li> 
+                              <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                            </li>
+                            <li> 
+                              <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                            </li>
+                        </ul> 
+                    </li>
+    
+                    <li>
+                      <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                    </li>
+                    <li class="dropdown dropdown-hover list-disc">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                          <li> 
+                            <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                        </li>
+                        <li> 
+                            <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                        </li>
+                        
+                        <li>
+                            <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                        </li>
+                        <li>
+                            <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                        </li>
+                         
+                        </ul> 
+                      </li>
+                    
+                    
+                    <li>
+                      <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+            
+  
+             <!-- image display -->
+     
+             <div class="mt-44 items-center space-y-6">
+               <p class="text-7xl text-white max-sm:text-xl max-md:text-3xl max-lg:text-4xl text-gray-10 font-semibold text-center">ABOUT</p> 
+             </div>
+          </nav>
+
+        <!-- total 3 image text btn section -->
+
+        <section class="bg-gray-100 text-gray-600">
+                
+            <!-- Lead with an impactful statement. 1st img part -->
+            <div class="hero-content flex-col gap-8 mt-20 p-16 max-sm:p-4 max-md:p-4  justify-between lg:flex-row-reverse">
+                <div class="space-y-6">
+                    <img class="md:w-[1550px]"
+                  src="../Robotic img/Untitled design.png"/>
+                  <h3 class="md:text-xl font-medium">Embedded Software Engineer</h3>
+                  <p>Md Tanvir Ahmed</p>
+                </div>
+                <div class="space-y-6">
+                    <h1 class="md:text-3xl font-bold">Lead with an impactful statement.</h1>
+                    <p class="">
+                        I am excited to share my passion for IoT with you through my portfolio. As an IoT enthusiast, I have worked on numerous projects that have allowed me to explore and develop my skills in this exciting field. <br> <br>
+
+                        My portfolio showcases some of my most successful projects, including the IoT Smart Switching System, Real-Time Environment Monitoring and Alert System, and Industrial IoT monitoring and Control system of Data Center & PoP. These projects demonstrate my technical expertise and my commitment to using IoT technology to improve people's lives. <br><br>
+                        
+                        I hope that my portfolio inspires you to explore the possibilities of IoT and to consider the impact that this technology can have on our world. Thank you for taking the time to view my portfolio, and I look forward to hearing your feedback.
+                    </p>
+                </div>
+            </div>
+
+            <!-- offer 2nd image part -->
+
+            <div class="hero-content flex-col gap-8 mt-12 p-16 max-sm:p-4 max-md:p-4 justify-between lg:flex-row-reverse max-sm:flex-col-reverse"> 
+                <div class="space-y-5">
+                    <h1 class="md:text-3xl font-bold">OFFER</h1>
+                    <p class="">
+                        I can help with everything from firmware development to troubleshooting and debugging issues with your microcontroller code. <br>
+
+                        I have experience working on various IoT projects, including temperature/humidity sensing, motion detection, home automation, and more. <br>
+
+                        I'm proficient in using both the Arduino IDE and PlatformIO for development, and I can provide you with high-quality and efficient code that meets your project's                      requirements. <br>
+
+                        I'm a great communicator and will work closely with you to ensure that your project is delivered on time, within budget, and to your satisfaction. <br>
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <img class="md:w-[990px]"
+                  src="../Robotic img/ofer.jpeg"/>
+                  <p class="md:text-2xl">Work Expreience</p>
+                </div>
+            </div>
+
+            <!-- Spectrum Engineering consortium ltd image -->
+            <div class="hero-content flex-col gap-8 mt-12 p-16 max-sm:p-4 max-md:p-4 justify-between lg:flex-row-reverse max-sm:flex-col-reverse"> 
+                <div class="space-y-10">
+                    <h1 class="md:text-3xl font-bold">SPECTRUM ENGINERRING CONSORTIUM LTD
+                    </h1>
+                    <h4 class="font-semibold">Dhaka, Bangladesh — <em>Embedded Systems Engineer</em></h4>
+                    <p class="">DECEMBER 2024, PRESENT</p>
+                    <ul class="list-disc list-inside text-sm">
+                        <li>Developed firmware for EOD robots, specializing in ROV systems.</li>
+                        <li>Implemented TCP/IP communication protocols for ROV remote control.</li>
+                        <li>Integrated GPS, LRF, and sensors for navigation.</li>
+                        <li>Established UART and socket communication </li>
+                        <li>Proficient in C/C++ and Python.</li>
+                        <li>Collaborated with hardware engineers for system integration.</li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <img class="md:w-[550px]"
+                  src="../Robotic img/WhatsApp Image 2024-03-31 at 01.16.22_ea207fda.jpg"/>
+                </div>
+            </div>
+
+            <!-- THT-Space Electrical Company Ltd -->
+            <div class="hero-content flex-col gap-10 mt-12 p-16 max-sm:p-4 max-md:p-4 justify-between lg:flex-row-reverse max-sm:flex-col-reverse">
+
+                <div>
+                    <img class="md:w-[650px]" src="../Robotic img/laptop 3.jpeg" alt="">
+                </div>
+                 
+                <div class="space-y-6">
+                    <h1 class="md:text-3xl font-bold">THT-SPACE ELECTRICAL COMPANY Ltd
+                    </h1>
+                    <h4 class="font-semibold">Dhaka, Bangladesh — <em>Embedded Systems Engineer</em></h4>
+                    <p class="">DECEMBER 2024, PRESENT</p>
+                    <ul class="list-disc list-inside text-sm">
+                        <li>Developed firmware for EOD robots, specializing in ROV systems.</li>
+                        <li>Implemented TCP/IP communication protocols for ROV remote control.</li>
+                        <li>Integrated GPS, LRF, and sensors for navigation.</li>
+                        <li>Established UART and socket communication </li>
+                        <li>Proficient in C/C++ and Python.</li>
+                        <li>Collaborated with hardware engineers for system integration.</li>
+                    </ul>
+                </div>   
+            </div>
+
+            <!-- educational qualification -->
+            <div class="text-center mt-24 mb-6 p-12 space-y-4">
+                <h1 class="md:text-3xl max-sm:text-xl mb-16 font-semibold">EDUCATONAL QUALIFICATION</h1>
+
+                <h2><em class="font-semibold">Saidpur Government Technical School & College,</em>Saidpur, Nilphamari — SSC & HSC</h2>
+                <p class="text-xs">January 2012 - June 2016</p>
+                <p>Higher School Certificate (2016)</p>
+                <p class="text-xs">GPA 5 out of 5</p>
+                <p>Secondary School Certificate (2014)</p>
+                <p class="text-xs">GPA 5 out of 5</p>
+            </div>
+    </section>
+
+    
+
+    
+</header>
+
+    <!-- start footer -->
+    
+    <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+      <div class="">
+          <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+      </div>
+      <hr class="mt-10 mb-6">
+      <div class="footer mt-12">
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Practice Area</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>BUSINESS LAW</li>
+                  <li>COPYRIGHTS</li>
+                  <li>EMERGING TECHNOLOGIES</li>
+                  <li>INDUSTRIAL DESIGNS</li>
+                  <li>LITIGATION</li>
+                  <li>PATENTS</li>
+                  <li>PLANT BREEDERS RIGHTS</li>
+                  <li>REGULATORY AFFAIRS</li>
+                  <li>TRADEMARKS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">The firm</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>AT A GLANCE</li>
+                  <li>HISTORY</li>
+                  <li>OUT STRUCTURE</li>
+                  <li>AWARDS</li>
+                  <li>INTERNATIONAL NETWORKS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Careers</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>EMPLOYMENT OPOTUNITIES</li>
+                  <li>ARTICLING & LAW STUDENTS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Professionals</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>INSIGHTS</li>
+                  <li>EVENTS</li>
+                  <li>NEWS</li>
+              </ul>
+          </nav>
+          
+            <nav class="cursor-pointer"> 
+              <form>
+                  <h6 class="footer-title text-xl">Follow us</h6>
+                  <div class="flex space-x-3">
+                      <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                      <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                      <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                      <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                      <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                    </a>
+                  </div>
+                </form>
+              <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+              <a href="https://play.google.com/store/apps?hl=en">
+                  <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                      <div>
+                          <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                      </div>
+                      <div>
+                          <p class="text-center  text-gray-700">GET IT ON</p>
+                          <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                      </div>
+                  </div>
+              </a>
+          </nav>
+          </div>
+          
+          <hr class="mt-10 mb-6">
+
+          <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+              <nav>
+                  <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="contact-us.html">CONTACT US</a>
+              </nav>
+          </div>
+
+          <!-- <hr class="mt-5"> -->
+      
+          <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+      
+  </footer>
+  
+ <!-- footer end -->
+
+
+</body>
+</html>

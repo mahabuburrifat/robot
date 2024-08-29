@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotic home page</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+
+
+</head>
+<body>
+    <header class="px-2 poppins">
+
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/download.jpeg);" class="bg-cover min-h-screen dark:bg-gray-900 dark:border-gray-700 bg-no-repeat">
+            <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+                <div>
+                  <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+                </div>
+                <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                  <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                      <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                    <li>
+                      <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                      <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                    </li>
+                    <li class="dropdown dropdown-hover">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                            <li> 
+                              <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                            </li>
+                            <li> 
+                              <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                            </li>
+                        </ul> 
+                    </li>
+    
+                    <li>
+                      <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                    </li>
+                    <li class="dropdown dropdown-hover list-disc">
+                        <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                            <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></a> 
+                        <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                        <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                          <li> 
+                            <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                        </li>
+                        <li> 
+                            <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                        </li>
+                        
+                        <li>
+                            <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                        </li>
+                        <li>
+                            <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                        </li>
+                         
+                        </ul> 
+                      </li>
+                    
+                    
+                    <li>
+                      <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+  
+                    <!-- image display -->
+            
+                    <div class="mt-44 items-center space-y-6">
+                      <p class="md:text-5xl  max-sm:text-xl text-gray-100 font-semibold text-center">Hi, I'm Tanvir Ahmed, <br> Embedded Software Engineer</p>
+                      <p class="md:text-4xl max-sm:text-xl text-gray-100 font-semibold text-center">I Love to create things</p>
+                    </div>
+          </nav>
+    
+        <!-- body section 4 img -->
+         <div class="grid grid-cols-4 gap-6 md:p-16 max-sm:p-2 max-sm:grid-cols-1 max-sm:space-y-6 max-md:grid-cols-2">
+            <div class="flex flex-col items-center">
+                <img class="max-sm:flex justify-center" src="../Robotic img/boy.gif" alt="">
+                <a class="btn tooltip tooltip-bottom max-sm:flex justify-center mt-3 bg-gray-50 border-b-2 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="About.html">About</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="max-sm:flex justify-center" src="../Robotic img/paper.gif" alt="">
+                <a class="btn tooltip tooltip-bottom max-sm:flex justify-center mt-3 bg-gray-50 border-b-2 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="research.html">Research</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="max-sm:flex justify-center" src="../Robotic img/adapter.gif" alt="">
+                <a class="btn tooltip tooltip-bottom max-sm:flex justify-center mt-3 bg-gray-50 border-b-2 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="real-time-monitoring.html">Projects</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="max-sm:flex justify-center md:w-72 sm:w-72" src="../Robotic img/creative factory.jpg" alt="">
+                <a class="btn tooltip tooltip-bottom max-sm:flex justify-center mt-3 bg-gray-50 border-b-2 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="corporate-project.html">Creative Content</a>
+            </div>
+         </div>
+
+         <hr class="">
+
+         <!-- social link -->
+
+          <div class="text-center mt-12 mb-12">
+            <div>
+                <h2 class="md:text-4xl max-sm:text-2xl font-bold">Social Link</h2>
+            </div>
+            <div class="mt-6 flex justify-center space-x-3">
+                <div class="tooltip tooltip-bottom" data-tip="Instagram">
+                    <a href="https://www.instagram.com">
+                        <img class="w-8 rounded" src="../Robotic img/instagram logo.png" alt="">
+                    </a>
+                </div>
+                <div class="tooltip tooltip-bottom" data-tip="Facebook">
+                    <a href="https://www.facebook.com">
+                        <img class="w-8 rounded" src="../Robotic img/facebook logo.png" alt="">
+                    </a>
+                </div>
+                <div class="tooltip tooltip-bottom" data-tip="Github">
+                    <a href="https://www.github.com">
+                        <img class="w-8 rounded" src="../Robotic img/github logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+          </div>
+
+          <hr class="">
+
+
+          <!-- Recent Works -->
+
+          <div class="mt-24">
+            <h1 class="md:text-4xl max-sm:text-2xl text-center font-bold">Recent Works</h1>
+          </div>
+
+            <!-- 2 image container -->
+            <div class="bg-gray-100 mt-24 md:p-16 max-sm:p-2 grid grid-cols-2 md:gap-6 max-sm:grid-cols-1 max-sm:space-y-6 max-md:grid-cols-1 max-md:space-y-6">
+                <!-- img 1 -->
+                <div class="space-y-6 cursor-pointer">
+                    <div class="inline-block overflow-hidden">
+                        <img class="shadow-2xl transition delay-75 hover:scale-110 hover:-translate-y-0.5" src="../Robotic img/custon RS485.png" alt="">
+                    </div>
+                    <p class="md:text-4xl">Custom rs485 addressable network with uart serial communication</p>
+                    <p>eveloping a library in c for communicating multi device with UART</p>
+                </div>
+
+                <!-- img 2 -->
+                <div class="space-y-6 cursor-pointer">
+                    <div class="inline-block overflow-hidden">
+                        <img class="shadow-2xl transition delay-75 hover:scale-110 hover:-translate-y-0.5" src="../Robotic img/TCP SOCKET.jpg" alt="">
+                    </div>
+                    <p class="md:text-4xl">Created tcp Socket Communication by Wiznet 5500</p>
+                    <p>Successfully the project is working</p>
+                </div>
+            </div>
+
+
+            <!-- 3 image container -->
+            <!-- image card section -->
+            <div class="flex gap-8 mt-24 md:p-16 max-sm:p-2 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center max-xl:flex-col max-xl:justify-center max-xl:items-center">
+                <!-- 3 image container -->
+                 <div class="flex flex-col space-y-8 ">
+                    <!-- image 1 -->
+                    <div class="overflow-hidden inline-block cursor-pointer shadow-2xl">
+                        <div class="transition-all delay-75 hover:scale-125 hover:-translate-y-0.5">
+                            <img class="lg:max-w-[405px] max-lg:max-w-sm shadow-2xl" src="../Robotic img/laptop.jpeg" alt="">
+                        </div>
+                    </div>
+                    <!-- image 2 -->
+                    <div class="overflow-hidden inline-block cursor-pointer shadow-2xl">
+                        <div class="transition-all delay-75 hover:scale-125 hover:-translate-y-0.5">
+                            <img class="lg:max-w-[405px] max-lg:max-w-sm shadow-2xl" src="../Robotic img/laptop 3.jpeg" alt="">
+                        </div>
+                    </div>
+                    <!-- image 3 -->
+                    <div class="overflow-hidden inline-block cursor-pointer shadow-2xl">
+                        <div class="transition-all delay-75 hover:scale-125 hover:-translate-y-0.5">
+                            <img class="lg:max-w-[500px] max-lg:max-w-sm shadow-2xl" src="../Robotic img/laptop.jpeg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="md:text-3xl mt-5 cursor-pointer">Develop the embedded System</h1>
+                 </div>
+                 <!-- container end -->
+
+                 <!-- another image 3 -->
+                 <div class="cursor-pointer ">
+                    <h1 class="md:text-4xl mb-6 text-center">Design and Develop the embedded System and software of the Remotely Operate Veichle</h1>
+                    <div class="overflow-hidden inline-block cursor-pointer max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center max-lg:flex max-lg:justify-center">
+                        <div class="transition-all delay-75 hover:scale-125 hover:-translate-y-0.5">
+                            <img class="max-lg:max-w-sm max-md:max-w-sm max-sm:max-w-xs shadow-2xl" src="../Robotic img/kren.jpg" alt="">
+                        </div>
+                    </div>
+                 </div>
+             </div>
+
+            <!--link button explore 3 image container -->
+             <div class="md:p-16 max-sm:mt-12 max-md:mt-12 max-sm:p-2 max-md:p-2 bg-gray-100">
+                <!-- img total 2 -->
+                <div class="grid grid-cols-2 md:gap-12 max-sm:grid-cols-1 max-sm:space-y-6 max-md:grid max-md:grid-cols-1 max-md:space-y-6 cursor-pointer">
+                    <!-- img 1 -->
+                    <div class="flex justify-center items-center mt-24 mb-12 bg-white shadow-2xl p-5">
+                    <div class="flex md:gap-8 max-sm:gap-2 max-sm:flex-col max-sm:space-y-8 max-md:gap-2 max-md:flex-col max-md:space-y-8">
+                        <div class="max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center">
+                            <div class="inline-block overflow-hidden shadow-2xl">
+                                <img class="transition delay-75 hover:scale-110 hover:-translate-y-0.5" src="../Robotic img/ele monitoring.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="max-sm:flex max-sm:flex-col max-sm:justify-center max-md:flex max-md:flex-col max-md:justify-center">
+                            <h1 class="md:text-2xl mb-6 font-medium max-sm:text-center max-md:text-center">IoT Architechture for Data center</h1>
+                            <a class="btn tooltip max-sm:flex justify-center mt-3 bg-gray-50 border-b-4 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="live-crypto.html">Click here to explore</a>
+                        </div>
+                    </div>
+                </div>
+                    <!-- img 2 -->
+                    <div class="flex justify-center items-center mt-24 mb-12 bg-white shadow-2xl p-5">
+                    <div class="flex md:gap-8 max-sm:gap-2 max-sm:flex-col max-sm:space-y-8 max-md:gap-2 max-md:flex-col max-md:space-y-8">
+                        <div class="max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center">
+                            <div class="inline-block overflow-hidden shadow-2xl">
+                                <img class="transition delay-75 hover:scale-110 hover:-translate-y-0.5" src="../Robotic img/developoing.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="max-sm:flex max-sm:flex-col max-sm:justify-center max-md:flex max-md:flex-col max-md:justify-center">
+                            <h1 class="md:text-2xl mb-6 font-medium max-sm:text-center max-md:text-center">IoT Architechture for Data center</h1>
+                            <a class="btn tooltip max-sm:flex justify-center mt-3 bg-gray-50 border-b-4 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="real-time-monitoring.html">Click here to explore</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- img 3 -->
+                <div class="flex justify-center items-center mt-12 mb-12 bg-white shadow-2xl p-5 md:max-w-2xl lg:ml-72">
+                    <div class="flex md:gap-8 max-sm:gap-2 max-sm:flex-col max-sm:space-y-8 max-md:gap-2 max-md:flex-col max-md:space-y-8">
+                        <div class="max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center cursor-pointer">
+                            <div class="inline-block overflow-hidden shadow-2xl">
+                                <img class="transition delay-75 hover:scale-110 hover:-translate-y-0.5 max-w-sm" src="../Robotic img/architechture.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="max-sm:flex max-sm:flex-col max-sm:justify-center max-md:flex max-md:flex-col max-md:justify-center">
+                            <h1 class="md:text-2xl mb-6 font-medium max-sm:text-center max-md:text-center">IoT Architechture for Data center</h1>
+                            <a class="btn tooltip max-sm:flex justify-center mt-3 bg-gray-50 border-b-4 border-gray-500 border-t-0 border-l-0 border-r-0 focus:outline-none hover:bg-slate-700 hover:text-gray-50 flex items-center" data-tip="Click me" href="ship-simulator.html">Click here to explore</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+    </header>
+
+    <!-- start footer -->
+    
+    <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+        <div class="">
+            <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+        </div>
+        <hr class="mt-10 mb-6">
+        <div class="footer mt-12">
+            <nav class="cursor-pointer">
+                <h6 class="footer-title text-xl">Practice Area</h6>
+                <ul class="list-disc list-inside space-y-3">
+                    <li>BUSINESS LAW</li>
+                    <li>COPYRIGHTS</li>
+                    <li>EMERGING TECHNOLOGIES</li>
+                    <li>INDUSTRIAL DESIGNS</li>
+                    <li>LITIGATION</li>
+                    <li>PATENTS</li>
+                    <li>PLANT BREEDERS RIGHTS</li>
+                    <li>REGULATORY AFFAIRS</li>
+                    <li>TRADEMARKS</li>
+                </ul>
+            </nav>
+            <nav class="cursor-pointer">
+                <h6 class="footer-title text-xl">The firm</h6>
+                <ul class="list-disc list-inside space-y-3">
+                    <li>AT A GLANCE</li>
+                    <li>HISTORY</li>
+                    <li>OUT STRUCTURE</li>
+                    <li>AWARDS</li>
+                    <li>INTERNATIONAL NETWORKS</li>
+                </ul>
+            </nav>
+            <nav class="cursor-pointer">
+                <h6 class="footer-title text-xl">Careers</h6>
+                <ul class="list-disc list-inside space-y-3">
+                    <li>EMPLOYMENT OPOTUNITIES</li>
+                    <li>ARTICLING & LAW STUDENTS</li>
+                </ul>
+            </nav>
+            <nav class="cursor-pointer">
+                <h6 class="footer-title text-xl">Professionals</h6>
+                <ul class="list-disc list-inside space-y-3">
+                    <li>INSIGHTS</li>
+                    <li>EVENTS</li>
+                    <li>NEWS</li>
+                </ul>
+            </nav>
+            
+              <nav class="cursor-pointer"> 
+                <form>
+                    <h6 class="footer-title text-xl">Follow us</h6>
+                    <div class="flex space-x-3">
+                        <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                        <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                      </a>
+                      <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                        <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                      </a>
+                      <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                        <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                      </a>
+                      <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                        <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                      </a>
+                    </div>
+                  </form>
+                <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+                <a href="https://play.google.com/store/apps?hl=en">
+                    <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                        <div>
+                            <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                        </div>
+                        <div>
+                            <p class="text-center  text-gray-700">GET IT ON</p>
+                            <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                        </div>
+                    </div>
+                </a>
+            </nav>
+            </div>
+            
+            <hr class="mt-10 mb-6">
+  
+            <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+                <nav>
+                    <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+                </nav>
+                <nav>
+                    <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+                </nav>
+                <nav>
+                    <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+                </nav>
+                <nav>
+                    <a class="link-hover" href="contact-us.html">CONTACT US</a>
+                </nav>
+            </div>
+  
+            <!-- <hr class="mt-5"> -->
+        
+            <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+        
+    </footer>
+    
+   <!-- footer end -->
+</body>
+</html>

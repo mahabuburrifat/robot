@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey to Robotic</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+</head>
+<body>
+    <header class="poppins px-2">
+
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/robotic.jfif);" class="bg-cover bg-no-repeat min-h-screen dark:bg-gray-900 dark:border-gray-700">
+          <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+            <div>
+              <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+            </div>
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+              <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                  <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                <li>
+                  <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                </li>
+                <li>
+                  <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                </li>
+                <li class="dropdown dropdown-hover">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                        <li> 
+                          <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                        </li>
+                        <li> 
+                          <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                        </li>
+                    </ul> 
+                </li>
+
+                <li>
+                  <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                </li>
+                <li class="dropdown dropdown-hover list-disc">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                      <li> 
+                        <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                    </li>
+                    <li> 
+                        <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                    </li>
+                    <li>
+                        <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                    </li>
+                     
+                    </ul> 
+                  </li>
+                
+                
+                <li>
+                  <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- image display -->
+         
+          <div class="mt-44 items-center">
+            <p class="md:text-7xl text-gray-100 font-semibold text-center">My Journey to <br> Embedded Systems</p>
+          </div>
+        </nav>
+
+        <!-- image section -->
+        <div class="bg-gray-100 md:p-16 max-sm:p-6 sm:p-6">
+          <div class="max-sm:flex-col max-sm:justify-center max-sm:items-center sm:flex-col sm:justify-center sm:items-center bg-white p-5 shadow-2xl">
+            <p>Welcome to my portfolio blog! I'm Shakil Tanvir, an Embedded Systems Engineer with a passion for designing innovative solutions that push the boundaries of technology. Over the past few years, I've had the opportunity to work on some exciting projects that have helped me grow both professionally and personally. Today, I'd like to share some insights into my recent work and what drives my passion for robotics and autonomous systems.</p>
+          </div>
+          <!-- robotic 1st image -->
+            <div class="">
+              <div class="flex gap-12 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md::flex-col max-md::justify-center max-md::items-center bg-white p-5 shadow-2xl">
+                <img
+                  src="../Robotic img/media.png"
+                  class="w-96 rounded-lg shadow-2xl" />
+                <div class="space-y-6">
+                  <h1 class="md:text-2xl font-bold">From Concept to Reality: Building Autonomous Systems</h1>
+                  <p>
+                    Currently, I am focused on developing an autonomous drive system for a tour guide robot. This project involves integrating advanced control systems and sensor technologies to create a robot that can navigate complex environments and provide an engaging experience for users. The challenges of ensuring smooth navigation, real-time data processing, and system reliability have been both demanding and rewarding, allowing me to apply and expand my skills in embedded C/C++ programming and system design.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- robotic 2nd image -->
+            <div>
+              <div class="flex gap-12 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md::flex-col max-md::justify-center max-md::items-center bg-white p-5 shadow-2xl">
+                <img
+                  src="../Robotic img/Untitled.jpg"
+                  class="w-96 rounded-lg shadow-2xl" />
+                <div class="space-y-6">
+                  <h1 class="md:text-2xl font-bold">Innovating with Radio Over Vehicle (ROV) Systems</h1>
+                  <p>
+                    One of my most significant projects involved designing a communication system for a Radio Over Vehicle (ROV) equipped with a 6DOF arm and drive system. This project required seamless integration of camera feeds and motor drive system, enabling the 6 arms  to perform intricate tasks with precision. The experience taught me the importance of robust communication protocols and real-time data processing, as well as the value of teamwork and innovation in achieving complex engineering goals.
+                    One of my most significant projects involved designing a communication system for a Radio Over Vehicle (ROV) equipped with a 6DOF arm and drive system. <br> <br>
+                    This project required seamless integration of camera feeds and motor drive system, enabling the 6 arms  to perform intricate tasks with precision. The experience taught me the importance of robust communication protocols and real-time data processing, as well as the value of teamwork and innovation in achieving complex engineering goals. <br><br>
+                    This project required seamless integration of camera feeds and motor drive system, enabling the 6 arms  to perform intricate tasks with precision. This project required seamless integration of camera feeds and motor drive system, enabling the 6 arms  to perform intricate tasks with precision. The experience taught me the importance of robust communication protocols and real-time data processing, as well as the value of teamwork and innovation in achieving complex engineering goals.
+                  </p>
+                </div>
+              </div>  
+            </div>
+
+            <!-- heading with text -->
+            <div class="space-y-5 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center sm:flex-col sm:justify-center sm:items-center bg-white p-5 shadow-2xl">
+              <h1 class="text-xl font-bold">Passion for Learning and Innovation</h1>
+              <p>What drives my work is a genuine passion for creating technology that can solve real-world challenges. I am constantly exploring new trends in artificial intelligence, smart systems, and energy-efficient technologies. Staying updated with the latest advancements enables me to bring fresh perspectives to my projects and contribute to developing sustainable and intelligent solutions.</p>
+            </div>
+            <div class="space-y-5 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center sm:flex-col sm:justify-center sm:items-center bg-white p-5 shadow-2xl">
+              <h1 class="text-xl font-bold">Future Aspirations</h1>
+              <p>Looking ahead, I am excited about pursuing a PhD in embedded systems, robotics, autonomous systems, and IoT. My goal is to continue pushing the boundaries of what is possible, exploring innovative solutions in smart systems, and contributing to research that enhances our understanding of intelligent energy systems. I am also keen on collaborating with like-minded professionals and researchers to bring groundbreaking ideas to life.</p>
+            </div>
+            <div class="space-y-5 mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center sm:flex-col sm:justify-center sm:items-center bg-white p-5 shadow-2xl">
+              <h1 class="text-xl font-bold">Let's Connect</h1>
+              <p>I invite you to explore my portfolio and learn more about my projects and experiences. If you share similar interests or have exciting opportunities, I would love to connect and explore potential collaborations.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- start footer -->
+    
+    <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+      <div class="">
+          <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+      </div>
+      <hr class="mt-10 mb-6">
+      <div class="footer mt-12">
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Practice Area</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>BUSINESS LAW</li>
+                  <li>COPYRIGHTS</li>
+                  <li>EMERGING TECHNOLOGIES</li>
+                  <li>INDUSTRIAL DESIGNS</li>
+                  <li>LITIGATION</li>
+                  <li>PATENTS</li>
+                  <li>PLANT BREEDERS RIGHTS</li>
+                  <li>REGULATORY AFFAIRS</li>
+                  <li>TRADEMARKS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">The firm</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>AT A GLANCE</li>
+                  <li>HISTORY</li>
+                  <li>OUT STRUCTURE</li>
+                  <li>AWARDS</li>
+                  <li>INTERNATIONAL NETWORKS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Careers</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>EMPLOYMENT OPOTUNITIES</li>
+                  <li>ARTICLING & LAW STUDENTS</li>
+              </ul>
+          </nav>
+          <nav class="cursor-pointer">
+              <h6 class="footer-title text-xl">Professionals</h6>
+              <ul class="list-disc list-inside space-y-3">
+                  <li>INSIGHTS</li>
+                  <li>EVENTS</li>
+                  <li>NEWS</li>
+              </ul>
+          </nav>
+          
+            <nav class="cursor-pointer"> 
+              <form>
+                  <h6 class="footer-title text-xl">Follow us</h6>
+                  <div class="flex space-x-3">
+                      <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                      <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                      <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                      <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                    </a>
+                    <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                      <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                    </a>
+                  </div>
+                </form>
+              <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+              <a href="https://play.google.com/store/apps?hl=en">
+                  <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                      <div>
+                          <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                      </div>
+                      <div>
+                          <p class="text-center  text-gray-700">GET IT ON</p>
+                          <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                      </div>
+                  </div>
+              </a>
+          </nav>
+          </div>
+          
+          <hr class="mt-10 mb-6">
+
+          <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+              <nav>
+                  <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+              </nav>
+              <nav>
+                  <a class="link-hover" href="contact-us.html">CONTACT US</a>
+              </nav>
+          </div>
+
+          <!-- <hr class="mt-5"> -->
+      
+          <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+      
+  </footer>
+  
+ <!-- footer end -->
+</body>
+</html>

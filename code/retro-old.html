@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Old Game</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- tailwind css & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flow bite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- style css -->
+     <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+     </style>
+
+</head>
+<body>
+    <header class="px-2 poppins">
+
+        <!-- nav bar secton -->
+        <nav style="background-image: url(../Robotic\ img/blockchain-technology-1920x1080.jpg);" class="bg-cover min-h-screen dark:bg-gray-900 dark:border-gray-700 bg-no-repeat">
+          <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+            <div>
+              <h1 class="text-2xl font-medium text-white">Md ROBOTICS</h1>
+            </div>
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring focus:ring-gray-100 dark:text-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+              <ul class="md:flex md:space-x-4 p-2 rounded-lg max-sm:bg-blue-500 max-md:bg-blue-500 max-sm:mt-4 max-md:mt-4">
+                  <!-- flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 -->
+                <li>
+                  <a href="index.html" class="block link-hover py-2 px-3 text-gray-50 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 max-md:rounded max-sm:rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Home</a>
+                </li>
+                <li>
+                  <a href="About.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">About</a>
+                </li>
+                <li class="dropdown dropdown-hover">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Creative Content 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                        <li> 
+                          <a href="retro-old.html" class="link-hover">Retro Old Game</a>
+                        </li>
+                        <li> 
+                          <a href="live-crypto.html" class="link-hover">Live Crypto Monitoring Device</a>
+                        </li>
+                    </ul> 
+                </li>
+
+                <li>
+                  <a href="my-journey-robotic.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-00 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">My journey to Robotics</a>
+                </li>
+                <li class="dropdown dropdown-hover list-disc">
+                    <a href="#" class="link-hover flex justify-between items-center py-2 px-3 text-gray-50 md:hover:text-gray-100 rounded hover:bg-transparent">Projects 
+                        <!-- link-hover flex justify-between items-center py-2 px-3 text-gray-900 rounded hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent -->
+                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></a> 
+                    <!-- akhne theke upore kaj ses akhon niche korte hbe -->
+                    <ul class="dropdown-content menu p-2 bg-blue-500 text-gray-50 rounded-lg shadow w-44 dark:bg-gray-950">
+                      <li> 
+                        <a href="ROV-system.html" class="link-hover">Designing & developing a RADIO OVER VEHICLE (ROV) system</a>
+                    </li>
+                    <li> 
+                        <a href="corporate-project.html" class="link-hover">Corporarte Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="real-time-monitoring.html" class="link-hover">Real Time Monitoring</a>
+                    </li>
+                    <li>
+                        <a href="ship-simulator.html" class="link-hover">Ship Simulator BD Army</a>
+                    </li>
+                     
+                    </ul> 
+                  </li>
+                
+                
+                <li>
+                  <a href="research.html" class="block link-hover py-2 px-3 text-gray-50 md:hover:text-gray-100 max-sm:hover:bg-gray-900 max-md:hover:bg-gray-900 rounded md:bg-transparent  md:dark:bg-transparent" aria-current="page">Research</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+            <!-- image display -->
+    
+            <div class="mt-44 items-center space-y-6">
+              <p class="md:text-7xl  max-sm:text-xl text-gray-100 font-semibold text-center">SPACE INVADERS</p>
+            </div>
+        </nav>
+
+        <!-- page body container -->
+         <div class="mt-16 p-16 max-sm:p-4 max-md:p-4 max-lg:p-6 bg-gray-100">
+            <!-- ul container -->
+             <div>
+                <ul class="list-disc list-inside space-y-4 font-semibold cursor-pointer">
+                    <li>The Retro Game</li>
+                    <li>Component List</li>
+                    <li>Working Procedure</li>
+                    <li>Testing and Debugging</li>
+                    <li>Coding</li>
+                    <li>Game Design</li>
+                </ul>
+             </div>
+
+             <!-- image first -->
+              <div class="mt-16">
+                    <div class="flex gap-8 max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:flex-col max-md:justify-center max-md:items-center max-lg:flex-col max-lg:justify-center max-lg:items-center cursor-pointer">
+                        <div class="">
+                          <img class="lg:max-w-lg shadow-2xl transition delay-75 hover:scale-95 hover:translate-y-0.5" src="../Robotic img/Untitled (4).jpg" alt="">
+                        </div>
+                      <div class="space-y-6">
+                        <h1 class="md:text-4xl font-bold">THE RETRO GAME</h1>
+                        <p class="">
+                            The allure of classic arcade games is timeless, and few are as iconic as Space Invaders. The simple yet addictive gameplay, combined with the nostalgia of early video gaming, makes it a favorite among retro gaming enthusiasts. But what if you could bring this classic to life yourself, on an Arduino board with an OLED display? In this blog post, we'll explore how to create a Space Invaders game using Arduino and a bit of creativity.
+                        </p>
+                       </div>
+                    </div>
+              </div>
+
+              <hr class="border-2 border-gray-500 mt-12">
+
+              <!-- collapse container -->
+               <div class="mt-20 space-y-12">
+                <!-- collapse 1 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-3xl font-medium">
+                        <h2>COMPONANT LIST</h2>
+                    </div>
+                     
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <ul class="list-disc list-inside space-y-6">
+                            <li><span class="font-bold">Arduino Board:</span> In our example, we'll use the versatile ESP32, but other boards can work too.</li>
+                            <li><span class="font-bold">TOLED Display:</span> A 128x64 or 128x32 pixel OLED display with I2C or SPI interface.</li>
+                            <li><span class="font-bold">Pushbutton:</span> This will serve as your trigger to shoot at the alien invaders.</li>
+                            <li><span class="font-bold">Potentiometer:</span> You'll use this component to control the movement of your spaceship.</li>
+                            <li><span class="font-bold">Breadboard and Jumper Wires:</span> Essential for connecting and prototyping your hardware</li>
+                            <li><span class="font-bold">(Optional) Piezo Buzzer:</span> For adding engaging sound effects to your game.</li>
+                            <li>Game Logic and Components</li>
+                        </ul>
+                     </div>
+                </div>
+
+                <!-- collapse 2 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-3xl font-medium">
+                        <h2>WORKING PROCEDURE</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <ul class="list-disc list-inside space-y-6">
+                            <li><span class="font-bold">Display Initialization:</span> Initialize the OLED display to set the stage for rendering the game's graphics.</li>
+                            <li><span class="font-bold">Spaceship:</span> Create your spaceship at the bottom of the display. The potentiometer controls its position on the X-axis.</li>
+                            <li><span class="font-bold">Alien Invaders:</span> Populate the top of the display with alien invaders. These extraterrestrial foes move horizontally and descend systematically.</li>
+                            <li><span class="font-bold">Shooting Mechanism:</span> Implement a shooting mechanism for your spaceship. Press the pushbutton to fire bullets at the invaders.</li>
+                            <li><span class="font-bold">Gameplay:</span> Your objective is to shoot down the descending invaders. For every successful hit, your score increases. If an invader reaches the bottom of the screen or collides with your spaceship, you lose a life. Keep track of your score and remaining lives.</li>
+                            <li><span class="font-bold">Display Updates:</span> Continually update the display to show the game's current state. Draw your spaceship, invaders, bullets, score, and lives.</li>
+                            <li><span class="font-bold">Game Over:</span> Implement game-over conditions. When you run out of lives, display a "Game Over" message on the OLED screen. Allow players to restart by pressing a button.</li>
+                            <li><span class="font-bold">Game Loop:</span> Set up a game loop that controls the frame rate, updates game elements, and handles player input.</li>
+                            <li><span class="font-bold">(Optional) Sound Effects:</span> Add sound effects for shooting, alien movements, or game-over events using a piezo buzzer or a speaker.</li>
+                             
+                        </ul>
+                     </div>
+                </div>
+                <!-- collapse 3 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-3xl font-medium">
+                        <h2>CODING</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <p>
+                            /**************************************
+                            <br><br>
+                            * Project: Space Invaders Game
+                            <br><br>
+                            * Author: Md Robotics
+                            <br><br>
+                            * Date: 24 October 2023
+                            <br><br>
+                            * Copyright © 20[XX] Shakil Tanvir. All rights reserved.
+                            <br><br>
+                            * Permission is hereby granted for personal and educational use only.
+                            <br><br>
+                            * Commercial use of this code or any derivative works is strictly prohibited without                            written consent from the author.
+                            <br><br>
+                            * Make Sure the pin no and your ADC chanel is 10bit or you can map your adc values                          from the code
+                            <br><br>
+                            **************************************/
+                            <br><br><br>
+
+                            #include <Adafruit_GFX.h>
+                                <br><br>
+                            #include <Adafruit_SSD1306.h>
+                            
+                                <br><br><br><br>
+                            #define SCREEN_WIDTH 128
+                            <br><br>
+                            #define SCREEN_HEIGHT 64
+                            <br><br><br><br>
+                            
+                            // Initialize the OLED display
+                            <br><br>
+                            Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+                            <br><br><br><br>
+                            
+                            // Spaceship variables
+                            <br><br>
+                            int spaceshipX = SCREEN_WIDTH / 2;
+                            <br><br>
+                            int spaceshipY = SCREEN_HEIGHT - 10;
+                            <br><br>
+                            int spaceshipWidth = 10;
+                            <br><br>
+                            int spaceshipHeight = 5;
+                            <br><br><br><br>
+                            
+                            // Bullet variables
+                            <br><br>
+                            int bulletX;
+                            <br><br>
+                            int bulletY;
+                            <br><br>
+                            int bulletSpeed = 2;
+                            <br><br>
+                            boolean bulletFired = false;
+                            <br><br><br><br>
+                            
+                            // Alien invader variables
+                            <br><br>
+                            int alienX = random(0, SCREEN_WIDTH);
+                            <br><br>
+                            int alienY = 0;
+                            <br><br>
+                            int alienSpeed = 1;
+                            <br><br>
+                            int alienWidth = 10;
+                            <br><br>
+                            int alienHeight = 5;
+                            <br><br><br><br>
+                            
+                            // Game variables
+                            <br><br>
+                            int score = 0;
+                            <br><br>
+                            int lives = 3;
+                            <br><br><br><br>
+                            
+                            // Button and potentiometer pins
+                            <br><br>
+                            int buttonPin = 2; // Change to the pin you're using
+                            <br><br>
+                            int potentiometerPin = A0; // Change to the pin you're using
+                            <br><br><br><br>
+                            
+                            void setup() {
+                                <br><br>
+                              display.begin(SSD1306_I2C_ADDRESS, 4, 5);
+                              <br><br>
+                              display.display();
+                              <br><br>
+                              display.clearDisplay();
+                              <br><br>
+                              display.setTextSize(1);
+                              <br><br>
+                              display.setTextColor(SSD1306_WHITE);
+                              <br><br>
+                              display.setCursor(0, 0);
+                              <br><br>
+                              display.print("Space Invaders");
+                              <br><br>
+                              display.display();
+                              <br><br>
+                              delay(2000); // Display the title for 2 seconds
+                              <br><br><br><br>
+                            
+                              // Initialize the button pin
+                              <br><br>
+                              pinMode(buttonPin, INPUT);
+                              <br><br>
+                            }
+                            <br><br><br><br>
+
+                            void loop() {
+                                <br><br>
+                              // Read the potentiometer value to move the spaceship
+                              <br><br>
+                              int potValue = analogRead(potentiometerPin);
+                              <br><br>
+                              spaceshipX = map(potValue, 0, 1023, 0, SCREEN_WIDTH - spaceshipWidth);
+                              <br><br><br><br>
+                            
+                              // Check if the button is pressed to fire a bullet
+                              <br><br>
+                              if (digitalRead(buttonPin) == HIGH && !bulletFired) {
+                                <br><br>
+                                bulletX = spaceshipX + spaceshipWidth / 2;
+                                <br><br>
+                                bulletY = spaceshipY;
+                                <br><br>
+                                bulletFired = true;
+                                <br><br>
+                              }
+                          
+                              <br><br><br><br>
+                              // Move the bullet
+                              <br><br>
+                              if (bulletFired) {
+                                <br><br>
+                                bulletY -= bulletSpeed;
+                                <br><br>
+                                if (bulletY < 0) {
+                                    <br><br>
+                                  bulletFired = false;
+                                  <br><br>
+                                }
+                                <br><br>
+                              }
+                              <br><br><br><br>
+                          
+                              // Move the alien invader
+                              <br><br>
+                              alienY += alienSpeed;
+                              <br><br>
+                              if (alienY > SCREEN_HEIGHT) {
+                                <br><br>
+                                alienX = random(0, SCREEN_WIDTH);
+                                <br><br>
+                                alienY = 0;
+                                <br><br>
+                              }
+                              <br><br><br><br>
+                          
+                              // Check for collisions
+                              <br><br>
+                              if (collide(bulletX, bulletY, 2, 2, alienX, alienY, alienWidth, alienHeight)) {
+                                <br><br>
+                                score++;
+                                <br><br>
+                                alienX = random(0, SCREEN_WIDTH);
+                                <br><br>
+                                alienY = 0;
+                                <br><br>
+                                bulletFired = false;
+                                <br><br>
+                              }
+                              <br><br><br><br>
+                          
+                              if (collide(spaceshipX, spaceshipY, spaceshipWidth, spaceshipHeight, alienX,                          alienY, alienWidth, alienHeight)) {
+                                <br><br>
+                                lives--;
+                                <br><br>
+                                alienX = random(0, SCREEN_WIDTH);
+                                <br><br>
+                                alienY = 0;
+                                <br><br>
+                              }
+                          
+                              <br><br><br><br>
+                              // Clear the display
+                              <br><br>
+                              display.clearDisplay();
+                              <br><br><br><br>
+                          
+                              // Draw game elements
+                              <br><br>
+                              display.drawRect(spaceshipX, spaceshipY, spaceshipWidth, spaceshipHeight,                             SSD1306_WHITE);
+                              <br><br>
+                              display.drawCircle(bulletX, bulletY, 2, SSD1306_WHITE);
+                              <br><br>
+                              display.drawRect(alienX, alienY, alienWidth, alienHeight, SSD1306_WHITE);
+                              <br><br><br><br>
+                          
+                              // Display score and lives
+                              <br><br>
+                              display.setCursor(0, 0);
+                              <br><br>
+                              display.print("Score: ");
+                              <br><br>
+                              display.print(score);
+                              <br><br>
+                              display.setCursor(SCREEN_WIDTH - 50, 0);
+                              <br><br>
+                              display.print("Lives: ");
+                              <br><br>
+                              display.print(lives);
+                              <br><br><br><br>
+                          
+                              display.display();
+                          
+                              <br><br><br><br>
+                              // Check for game over
+                              <br><br>
+                              if (lives <= 0) {
+                                <br><br>
+                                display.clearDisplay();
+                                <br><br>
+                                display.setTextSize(2);
+                                <br><br>
+                                display.setCursor(20, SCREEN_HEIGHT / 2 - 10);
+                                <br><br>
+                                display.print("Game Over");
+                                <br><br>
+                                display.display();
+                                <br><br>
+                                delay(2000); // Display "Game Over" for 2 seconds
+                                <br><br>
+                                resetGame();
+                                <br><br>
+                              }
+                              <br><br><br><br>
+                          
+                              delay(20); // Adjust the game speed by changing the delay
+                              <br><br>
+                            }
+                            <br><br><br><br>
+
+                            boolean collide(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2) {
+                                <br><br>
+                              return (x1 + w1 >= x2 && x1 <= x2 + w2 && y1 + h1 >= y2 && y1 <= y2 + h2);
+                              <br><br>
+                            }
+
+                            <br><br><br><br>
+                            void resetGame() {
+                                <br><br>
+                              score = 0;
+                              <br><br>
+                              lives = 3;
+                              <br><br>
+                              spaceshipX = SCREEN_WIDTH / 2;
+                              <br><br>
+                              alienX = random(0, SCREEN_WIDTH);
+                              <br><br>
+                              alienY = 0;
+                              <br><br>
+                              display.clearDisplay();
+                              <br><br>
+                            }
+                        </p>
+                    </div>
+                </div>
+
+                <!-- collapse 4 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-3xl font-medium">
+                        <h2>TESTING AND DEBUGGING</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <ul class="list-disc list-inside space-y-6">
+                            <li>During the development phase, it's essential to test your game regularly and debug any issues that arise. Ensure that the hardware components, such as the potentiometer and pushbutton, are correctly integrated and responsive.</li>
+                            <li>Make Sure the pin no and your ADC chanel is 10bit or you can map your adc values from the code.</li>
+                        </ul>
+                     </div>
+                </div>
+
+                <!-- collapse 5 -->
+                <div tabindex="0" class="collapse collapse-plus text-gray-950 bg-white border-b-2 border-gray-400 focus:outline-gray-500 shadow-2xl">
+                    <input type="checkbox">
+                    <div class="collapse-title xl:text-3xl font-medium">
+                        <h2>GAME DESIGN</h2>
+                    </div>
+                    <div class="collapse-content">
+                        <hr class="border border-gray-400 mb-5">
+                        <P>Design the visual elements of your game, including the spaceship, aliens, bullets, and any additional graphics you'd like to include. Utilize simple shapes or images to represent these elements on the OLED display.</P>
+                     </div>
+                </div>
+               </div>
+         </div>
+
+
+    </header>
+
+   <!-- start footer -->
+    
+   <footer class="bg-blue-700 px-16 py-8 max-sm:px-12 max-md:px-14 max-lg:px-16 text-gray-50">
+    <div class="">
+        <h1 class="text-5xl max-sm:text-xl max-md:text-3xl max-lg:text-4xl font-bold cursor-pointer">MD ROBOTICS</h1>
+    </div>
+    <hr class="mt-10 mb-6">
+    <div class="footer mt-12">
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Practice Area</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>BUSINESS LAW</li>
+                <li>COPYRIGHTS</li>
+                <li>EMERGING TECHNOLOGIES</li>
+                <li>INDUSTRIAL DESIGNS</li>
+                <li>LITIGATION</li>
+                <li>PATENTS</li>
+                <li>PLANT BREEDERS RIGHTS</li>
+                <li>REGULATORY AFFAIRS</li>
+                <li>TRADEMARKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">The firm</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>AT A GLANCE</li>
+                <li>HISTORY</li>
+                <li>OUT STRUCTURE</li>
+                <li>AWARDS</li>
+                <li>INTERNATIONAL NETWORKS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Careers</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>EMPLOYMENT OPOTUNITIES</li>
+                <li>ARTICLING & LAW STUDENTS</li>
+            </ul>
+        </nav>
+        <nav class="cursor-pointer">
+            <h6 class="footer-title text-xl">Professionals</h6>
+            <ul class="list-disc list-inside space-y-3">
+                <li>INSIGHTS</li>
+                <li>EVENTS</li>
+                <li>NEWS</li>
+            </ul>
+        </nav>
+        
+          <nav class="cursor-pointer"> 
+            <form>
+                <h6 class="footer-title text-xl">Follow us</h6>
+                <div class="flex space-x-3">
+                    <a class="tooltip tooltip-bottom" data-tip="Facebook" href="https://www.facebook.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/facebook logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Youtube" href="https://www.youtube.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/youtube logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Instagram" href="https://www.Instagram.com">
+                    <img class="w-9 h-9 rounded-full" src="../Robotic img/instagram logo.png"alt="">
+                  </a>
+                  <a class="tooltip tooltip-bottom" data-tip="Github" href="https://www.github.com">
+                    <img class="w-10 h-10 rounded-full" src="../Robotic img/github logo.png"alt="">
+                  </a>
+                </div>
+              </form>
+            <h6 class="footer-title text-xl mt-8">Download our apps</h6>
+            <a href="https://play.google.com/store/apps?hl=en">
+                <div class="flex items-center px-4 py-1 gap-2 bg-stone-50 border-solid border-2 rounded-lg hover:bg-gray-200">
+                    <div>
+                        <img class="w-8 h-8" src="../Robotic img/playstore.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-center  text-gray-700">GET IT ON</p>
+                        <h3 class=" font-semibold text-gray-700">Google Play</h3>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        </div>
+        
+        <hr class="mt-10 mb-6">
+
+        <div class="flex justify-around max-sm:flex-col max-sm:space-y-2 max-md:flex-col max-md:space-y-2">
+            <nav>
+                <a class="link-hover" href="refund-policy.html">REFUND POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="privacy-policy.html">PRIVACY POLICY</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="conditions-of-use.html">CONDITION OF USE</a>
+            </nav>
+            <nav>
+                <a class="link-hover" href="contact-us.html">CONTACT US</a>
+            </nav>
+        </div>
+
+        <!-- <hr class="mt-5"> -->
+    
+        <p class="mt-8 text-center text-gray-400 cursor-pointer">@All Rights Reserved,  <br>  2024, CODE ZONE 71.</p>
+    
+</footer>
+
+<!-- footer end -->
+
+</body>
+</html>
